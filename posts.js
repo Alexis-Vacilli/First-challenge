@@ -4,7 +4,7 @@ const posts = document.getElementById('posts');
 
 // Getting user's posts(Get method)
 axios
-  .get(`https://jsonplaceholder.typicode.com/posts?userId=${id}`)
+  .get(`https://jsonplaceholder.typicode.com/First-challenge/posts?userId=${id}`)
   .then((response) => {
     response.data.forEach((post) => {
       const div = document.createElement('div');
