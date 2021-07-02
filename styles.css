@@ -6,6 +6,16 @@ a{
     text-decoration: none;
     color: white;
 }
+
+.header {
+    text-align: center;
+    background-color: #04AA6D;
+    width: 30%;
+    margin: 20px auto;
+    padding: 3px;
+    color: #fff;
+    border-radius: 5px;
+}
 #users {
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
@@ -50,7 +60,15 @@ a{
       cursor: pointer;
       font-weight: bold;
   }
-  
+  .back{
+    color: #fff;
+    background-color: #04AA6D;
+    padding: 10px;
+    cursor: pointer; 
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 20px;
+ }
   .container {
       width: 80%;
       margin: auto;

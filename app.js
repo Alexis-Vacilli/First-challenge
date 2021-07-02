@@ -17,7 +17,7 @@ axios.get(' https://jsonplaceholder.typicode.com/users').then((response) => {
     name.className = 'name';
     email.className = 'email';
     button.className = 'button';
-    link.setAttribute("href",`/First-challenge/post.html#${response.data[user].id}`)
+    link.setAttribute("href",`/post.html#${response.data[user].id}`)
     link.textContent=`Get User's posts`
     //button.setAttribute("href",`/post.html/${response.data[user].id}`)
     button.appendChild(link)
