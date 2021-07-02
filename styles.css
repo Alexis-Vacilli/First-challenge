@@ -2,6 +2,10 @@
     padding: 20px;
     margin: 20px;
 }
+a{
+    text-decoration: none;
+    color: white;
+}
 #users {
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
@@ -21,11 +25,52 @@
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: #00CC99;
+    background-color: #04AA6D;
     color: white;
   }
 
+  #users .name {
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+      gap: 1
+  }
   #users .email {
       text-transform: lowercase;
   }
 
+  #users .button {
+      width: 40%;
+      padding: 7px 5px;
+      margin-top: 5px;
+      background-color: #04AA6D!important;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+  }
+  
+  .container {
+      width: 80%;
+      margin: auto;
+      padding: 10px;
+  }
+  .content {
+      background-color: #ddd;
+  }
+  .title {
+      background-color: #04AA6D;
+      padding: 15px;
+      color: #fff;
+      font-size: 17px;
+      border-radius: 2px;
+      text-transform: capitalize;
+  }
+
+  .body {
+      padding: 15px;
+      margin-top: 5px;
+      font-size: 15px;
+      text-transform: capitalize;
+  }
